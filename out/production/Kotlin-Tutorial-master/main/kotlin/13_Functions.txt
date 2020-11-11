@@ -1,0 +1,34 @@
+
+PARAMETERS:
+    The values which are defined at the time of the function prototype
+    or definition of the function are called as parameters.
+
+    These are used in function header of the called function to
+    receive the value from the arguments.
+
+    EXAMPLE:
+    fun functionName(parameter){
+        return parameter
+    }
+
+ARGUMENTS:
+    When a function is called, the values that are passed during the
+    call are called as arguments.
+
+    These are used in function call statement to send value from the
+    calling function to the receiving function.
+
+    EXAMPLE:
+    val num: Int = 20
+   functionName(num)
+
+   // The value of 'num' inside function is called 'argument'
+
+
+CLASS AS DATA TYPE:
+
+    To store data inside class we can use our class as a data type
+
+    var myCar: Car = Information about car
+
+    It is also called 'User Defined Data Type'

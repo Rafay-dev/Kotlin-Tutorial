@@ -1,0 +1,21 @@
+
+
+ABSTRACT CLASS:
+    An abstract class cannot be instantiated, which means we cannot create
+    the object of an abstract class
+
+    Unlike other class, an abstract class is always open, so we don't
+    need to use the 'open' keyword
+
+
+POINTS TO NOTE:
+    1. We cannot create the object of an abstract class
+
+    2. Property and Member function of an 'abstract' class
+    are by default non-abstract. If you want to override these
+    in the child class then you need to use 'open' keyword for them
+
+    3. If  a Member function is abstract then it must be 'implemented'
+    in the child class. An 'abstract' Member function doesn't have a
+    body, only method signature, the implementation is done in the
+    child class.

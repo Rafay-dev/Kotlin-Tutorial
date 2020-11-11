@@ -1,0 +1,31 @@
+
+
+DATA CLASS:
+    In Kotlin, you can create a 'Data Class' to hold the data. The reason why
+    you're gonna mark a class as 'Data' is to let compiler know that you're
+    creating this class for holding the data, compiler then creates several
+    functions automatically for your 'Data class' which would be helpful in
+    managing data.
+
+
+    SYNTAX:
+    - data class Student(val stuName: String, val stuAge: Int)
+
+
+AUTOMATICALLY GENERATED FUNCTIONS FOR DATA CLASS IN KOTLIN:
+
+    1. equals()
+    2. hashCode()
+    3. toString()
+    4. copy()
+    5. componentN()
+
+REQUIREMENTS FOR DATA CLASS:
+
+    1. The 'Primary Constructor' of the 'Data Class' must have at least
+    one parameter. Also, the parameters are either marked 'val' or 'var'
+
+    2. The class cannot be marked as open, abstract, sealed or inner
+
+    3. The class can extend (inherit) other class and it can also
+    implements other interfaces

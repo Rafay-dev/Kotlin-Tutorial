@@ -1,0 +1,22 @@
+
+
+    OBJECT EXPRESSION:
+        - The 'object' keyword can also be used to create objects of
+        an anonymous class known as anonymous objects. They are used
+        if you need to create an object of a slight modification of
+        some class or interface without declaring a subclass for it.
+
+        For Example:
+        window.addMouseLister(object: MouseAdapter(){
+
+            override fun mouseClicked(e: MouseEvent){
+                // ..
+            }
+            override fun mouseEntered(e: MouseEvent){
+                // ..
+            }
+        })
+
+
+        Here, an anonymous object os declared extending 'MouseAdapter' class.
+        The program overrides two 'MouseAdapter' methods: 'mouseClick()' and 'mouseEnter()'

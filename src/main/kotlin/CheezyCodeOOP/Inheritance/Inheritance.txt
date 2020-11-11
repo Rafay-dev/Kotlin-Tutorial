@@ -1,0 +1,21 @@
+
+
+    INHERITANCE:
+    'Inheritance' is a feature using which a class inherits all
+    the features of another class.
+
+    The class from which the features are inherited is known as
+    Base class, Super class or Parent class.
+
+    The class that inherits the features is known as
+    Derived class, Sub class or Child class
+
+    Note: By default all classes in Kotlin are final, so you have
+    to use the open annotation in the parent class, this tells the
+    compiler that this class can be inherited by other class.
+
+    Kotlin accepts only single-type Inheritance.
+    A 'Child Class' can only have inherit only one 'Parent'
+    class at a time
+
+    Every Kotlin class has 'Any' as a 'super' class

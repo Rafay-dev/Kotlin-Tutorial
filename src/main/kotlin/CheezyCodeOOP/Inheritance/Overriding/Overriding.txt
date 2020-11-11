@@ -1,0 +1,8 @@
+
+
+OVERRIDING:
+    If a function or property with the same name exists in the child class then we need to override them in child class using 'override' keyword
+
+    A child class can override te member function of parent class using override keyword. By overriding a function, a child class gives its own implementation to the already existing code of base class.
+
+    Overriding doesn't mean that it will update the code in base class, the change is only applicable to the class overriding the function or its sub classes

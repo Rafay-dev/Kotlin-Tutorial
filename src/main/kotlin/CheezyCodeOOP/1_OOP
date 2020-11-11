@@ -1,0 +1,19 @@
+
+
+Object Oriented Programming:
+    In OOP, there are set of objects that interact with each other
+    to solve a problem.
+
+    Paradigm which allows us to solve problems with the help of
+    objects which represents the real world entities.
+
+
+CLASSES & OBJECTS:
+    > Class is a blueprint or template
+    > Objects are the real thing
+    > YOu create objects in your program and they interact with
+    each other to complete the work
+
+DESIGN A CLASS:
+    * Properties or Fields (Object knows)
+    * Methods (Object Does)

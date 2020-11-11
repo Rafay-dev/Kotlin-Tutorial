@@ -1,0 +1,8 @@
+
+
+POLYMORPHISM:
+       According to 'Polymorphism' a Parent Class can hold reference to
+       it's Child Class and can called 'properties' & 'methods' of the
+       Child class
+
+       In polymorphism Parent class can only called 'Methods' and 'Properties' of Child class that are common in Parent class

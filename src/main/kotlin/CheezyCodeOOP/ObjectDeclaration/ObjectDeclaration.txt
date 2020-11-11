@@ -1,0 +1,8 @@
+
+
+OBJECT DECLARATION:
+
+    * Class and its Single Object is created at once
+    * No constructors are allowed (init block is allowed)
+    * Singleton Pattern
+    * You can inherit class/interface

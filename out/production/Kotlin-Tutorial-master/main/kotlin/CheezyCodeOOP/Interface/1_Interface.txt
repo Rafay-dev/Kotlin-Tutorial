@@ -1,0 +1,12 @@
+
+INTERFACE:
+
+    1. An interface can have both abstract and non-abstract function
+
+    2. An interface can only have abstract property(data member),
+    non-abstract properties are not allowed.
+
+    3. A class can implement more than one interfaces.
+
+    4. All abstract properties and abstract member functions of
+    an interface must be overridden in the class that implement it.

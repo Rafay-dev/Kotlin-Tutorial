@@ -1,0 +1,75 @@
+
+
+VISIBILITY MODIFIER:
+    Visibility Modifiers are the keywords which are used to restrict the use of class, interface,
+    methods, and property of Kotlin in the application. These modifiers are used at multiple places such
+    as Class Header or Method Body
+
+    In Kotlin, visibility modifiers are categorized into four different types:
+        > public
+        > protected
+        > internal
+        > private
+
+    * PUBLIC MODIFIER:
+        A 'public modifier' is accessible from everywhere in the project. It is a default
+        modifier in Kotlin.
+        If any class, interface etc. are not specified with any access modifier then that class,
+        interface etc are used in public scope.
+
+        - All 'public' declaration can be placed at top of the file.
+        - If a member of class is not specified then it is by default 'public'
+
+        EXAMPLE:
+        public class Example{}
+
+
+    *   PROTECTED MODIFIER:
+        A 'protected modifier' with class or interface allows visibility to its class or subclass only.
+        A 'protected declaration' (when overridden) in its subclass os also protected modifier unless
+        it's explicitly changed.
+
+        - in Kotlin, 'protected modifier' cannot be declared at top level
+
+        EXAMPLE:
+        open class Base{
+            protected val i = 0
+        }
+
+        - Overriding of protected types (Add 'open' before 'protected')
+        open class Base{
+            open protected val i = 6
+        }
+
+    *   INTERNAL MODIFIER:
+        The 'internal modifier' are newly added in Kotlin, it's not available in Java. Declaring
+        anything makes that field marked as internal field. The internal modifier makes the field
+        visible only inside the module in which it's implemented
+
+        EXAMPLE:
+            internal class Example{
+                internal val x = 5
+                internal fun getValue(){}
+            }
+            internal val y = 10
+
+        - In above, all the fields are declared as 'internal' which are accessible only inside
+        the module in which they are implemented
+
+    *   PRIVATE MODIFIER:
+        A 'private' modifier allows the declaration to be accessible only within the block
+        in which properties, fields etc are declare.
+        The private modifier declaration doesn't allow to access the outside the scope.
+        A private package can be accessible within that specific fi;e
+
+        EXAMPLE:
+        private class Example{
+            private val x = 1
+            private val doSomething(){
+
+            }
+        }
+
+        - In above class Example, val x and function doSomething() are declared as private. The
+        class 'Example' os accessible from the same source file, 'val x' and fun 'doSomething()' are
+        accessible within Example class
