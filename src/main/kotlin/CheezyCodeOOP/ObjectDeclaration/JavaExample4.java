@@ -1,3 +1,5 @@
+package main.kotlin.CheezyCodeOOP.ObjectDeclaration;
+
 import CheezyCodeOOP.ObjectDeclaration.ObjectInsideClass;
 
 class JavaExample4 {
