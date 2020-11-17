@@ -1,0 +1,26 @@
+
+
+ENUM:
+    'Enum' is a data type which contains sets of constants.
+
+    It can be used for days in weeks
+    SUNDAY, MONDAY, TUESDAY, ...
+
+    Directions
+    NORTH, EAST, ...
+
+    Months
+    JANUARY, FEBRUARY, ...
+
+    Colors
+    RED, BLACK, ...
+
+    Example:
+    enum class Day{
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY
+    }
+
+    * According to naming convention, we should have
+    all constants in capital letter.

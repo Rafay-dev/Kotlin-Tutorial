@@ -1,0 +1,25 @@
+
+
+EXCEPTION HANDLING:
+    Exceptions are unwanted issues that can occur at runtime of the program and terminate your program abruptly. Exception handling is a process, using which we can prevent the program from such exception than can break our code.
+
+There are two types of exceptions:
+    1. Checked exceptions that are declared as part of method signature and are checked at the compile time, for example IOException.
+
+    2. Unchecked exceptions do not need to be added as part of method signature and they are checked at the runtime, for example 'NullPointerException'
+
+
+ Handling of exception in Kotlin is same as Java. We use try, catch and finally block to handle the exceptions in the Kotlin code.
+
+ SYNTAX:
+ try{
+
+ }
+ catch{}
+
+ OR:
+
+ try{
+
+ }
+ finally{}

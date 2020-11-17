@@ -25,8 +25,8 @@ fun main() {
     println(p4)
     println(p3.hashCode())
     println(p3 == p4) // return 'true'
-    // Above condition will return 'true', because now it's colling it
-    // from 'data class'  reference, and now it is priniting object as
+    // Above condition will return 'true', because first it's colling it
+    // from 'data class'  reference, and it is returning object as
     // 'String'
 
     println()

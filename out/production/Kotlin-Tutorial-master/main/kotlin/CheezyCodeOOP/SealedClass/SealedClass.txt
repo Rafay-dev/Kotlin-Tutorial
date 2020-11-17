@@ -1,0 +1,32 @@
+
+
+SEALED CLASS:
+
+    A 'sealed class' is used for representing restricted class hierarchy
+    where an object or a value can have one of the types from a limited
+    set of values.
+
+    Sealed Class is like an extension of Enum Class.
+
+    The set of values in Enum Class is also restricted, however an Enum
+    constant can have only single instance while a subclass of a sealed
+    class can have multiple instances
+
+    Syntax:
+        sealed class Student
+
+
+RULES OF SEALED CLASS IN KOTLIN:
+
+    1. We cannot create the object of a sealed class which means a sealed
+    class cannot be instantiated.
+    2. ALl the subclasses of a sealed class must be declared within the
+    same file where the sealed class is declared
+    3. The constructor of sealed class is by default 'private'
+    AND WE CANNOT MAKE IT NON-PRIVATE
+
+
+    Sealed class is commonly used with 'when()' expression. As the sub classes
+    of sealed classes have their own types act as a case. Due to this,
+    'when expression' in sealed class covers all the cases and avoid to add
+    'else' clause

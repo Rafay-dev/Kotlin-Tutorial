@@ -1,0 +1,17 @@
+
+
+NULL SAFETY:
+
+    Kotlin compiler by default doesn't allow any types to have a value of
+    'null' at compile time
+
+    For Kotlin, NULLABILITY IS A TYPE. At a higher lever, a Kotlin type fits
+    in either of the two.
+
+    > Nullability Type
+    > Non-Nullability Type
+
+    To set a type as Nullable we need to append a '?' to the type.
+
+    EXAMPLE:
+    var a:String ?= null
