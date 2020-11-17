@@ -31,19 +31,30 @@ fun main() {
     println()
 
     // Another method to use 'filter' (it)
-    val list5 = nums.filter{it < 5}
+    val list5 = nums.filter { it < 5 }
     println("Numbers less than 5: $list5")
     println()
 
     // :3.1
-    val userList:List<User> = listOf(
-        User(1, "Mike"),
-        User(2, "Dave"),
-        User(3, "Han")
+    val userList: List<User> = listOf(
+            User(1, "Mike"),
+            User(2, "Dave"),
+            User(3, "Han")
     )
     println(userList.filter { it.id == 2 })
     println()
 
+    // :4.1
+    val paidUserList = userList.map {
+        PaidUser(it.id, it.name, "Paid")
+        // * Add 'type=Paid' to all 'userList' entries
+    }
+    println(paidUserList)
+    println()
+
+//    5
+//    Printing List using forLoop
+    userList.forEach{println(it)}
 
 }
 
@@ -53,4 +64,7 @@ fun isOdd(a: Int): Boolean {
 }
 
 //    :3
-data class User(val id: Int, val name:String)
+data class User(val id: Int, val name: String)
+
+//  :4
+data class PaidUser(val id: Int, val name: String, val type: String)
