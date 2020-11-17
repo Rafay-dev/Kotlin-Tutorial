@@ -5,6 +5,17 @@ package CheezyCodeOOP.Functions_Lambdas
 *   a curly braces{} which takes 'variable' as a
 */
 
+//    :6
+/*  it: implicit name of a single parameter
+*   It's very common that a lambda expression has only one parameter.
+*
+*   If the compiler can figure he signature out itself, it is allowed not to declare the only
+*   parameter and omit ->.
+*
+*   The parameter will be implicitly declared under the name 'it'
+*
+*/
+
 fun main() {
     // :1.1
     addNumber(5, 10)
@@ -40,6 +51,7 @@ fun main() {
     println()
 
 
+    // :5
     val loginUser = { user: String -> println("$user Logged In!") }
     // OR
     val loggedOutUser:(String) -> Unit = {user -> println("$user Logged Out!")}
@@ -47,6 +59,13 @@ fun main() {
     println(loginUser("Jade"))
     println()
     println(loggedOutUser("Jade"))
+    println()
+
+    // :6
+    // * When working with single parameter lambda, 'it' keyword can used as parameter
+    val simplifySingleParam: (Int) -> Int = {it + it}
+    println("5 + 5 = ${simplifySingleParam(5)}")
+    println()
 
 }
 
