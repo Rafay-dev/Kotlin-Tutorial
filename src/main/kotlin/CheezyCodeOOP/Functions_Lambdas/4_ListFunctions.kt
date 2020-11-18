@@ -1,5 +1,8 @@
 package CheezyCodeOOP.Functions_Lambdas
 
+// Filters:
+//    Filtering conditions are defined by predicates - lambda functions that take a collection element and return a boolean value
+
 fun main() {
     // :1
     val nums = listOf<Int>(1, 3, 5, 7, 2, 4, 6, 9)
